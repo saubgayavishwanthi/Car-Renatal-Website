@@ -1,0 +1,52 @@
+/* Navbar container */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color:rgba(243, 246, 248, 0.8);
+  padding: 15px 50px; /* Adjusted padding */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  position: fixed;  /* Fix it to the top */
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000; /* Ensure it's above other elements */
+}
+/* Logo container */
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+/* Adjust logo size */
+.logo img {
+  width: 150px;
+  height: 50px;
+}
+
+/* Navigation links container */
+.nav-links {
+  display: flex;
+  gap: 30px;
+  margin-right: 300px;
+}
+
+/* Individual link styling */
+.nav-links a {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+/* Hover effect */
+.nav-links a:hover {
+  color: #007bff;
+}
+.phone-number{
+  color: black;
+  font-size: 18px;
+  font-weight: 500;
+  margin-right:50px;
+}

@@ -1,0 +1,143 @@
+.footer {
+    background-color: black;
+    color: white;
+    padding: 40px 20px;
+}
+
+.footer-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px;
+}
+
+@media (min-width: 768px) {
+    .footer-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+.footer-heading {
+    font-size: 18px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.footer-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.footer-text {
+    font-size: 14px;
+    color: #ccc;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links li {
+    margin-bottom: 5px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #4da6ff;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+.subscribe {
+    margin-top: 10px;
+    display: flex;
+}
+
+.subscribe-input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px 0 0 4px;
+    flex-grow: 1;
+    background-color: #222;
+    color: white;
+    border: 1px solid #555;
+}
+
+.subscribe-button {
+    padding: 8px 12px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+}
+
+.subscribe-button:hover {
+    background-color: darkred;
+}
+
+/* Social Media Section */
+.social-media {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #111;
+}
+
+.social-media h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.social-icon {
+    width: 40px;
+    height: 40px;
+}
+
+/* Payment Methods & Copyright */
+.footer-bottom {
+    background-color: #222;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 10px;
+}
+
+.payment-methods {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 10px;
+}
+
+.payment-icon {
+    width: 50px;
+    height: auto;
+}
+
+.copyright {
+    font-size: 14px;
+    color: #aaa;
+}
+
+.copyright span {
+    color: red;
+    font-weight: bold;
+}
+
+/* Icon Styling */
+.icon {
+    width: 16px;
+    height: 16px;
+    margin-right: 8px;
+    filter: brightness(0) saturate(100%) invert(46%) sepia(85%) saturate(364%) hue-rotate(85deg) brightness(90%) contrast(90%);
+}
