@@ -1,0 +1,60 @@
+.contact-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 80px;
+    background-color: #f8f9fa;
+}
+
+.contact-info, .container {
+    display: inline-block;
+   
+    vertical-align: top;
+}
+
+.contact-info {
+    padding-left:100px;
+    padding-top:150px;
+    border-radius: 8px;
+    width: 35%;
+}
+
+.contact-info h2 {
+    font-size: 24px;
+    color: crimson;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 20px;
+}
+
+.contact-info p {
+    font-size: 18px;
+    margin: 5px 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+}
+
+.container.mt-5 {
+    display: inline-block;
+    width:55%;
+    vertical-align: top;
+    margin-top:20px;
+    margin-bottom:20px;
+}
+
+.map {
+   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3962.8988263006113!2d79.92923597373075!3d6.659459821571056!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae248103684bbbf%3A0xa649bdaa156bf6f4!2s4%20Wasantharama%20Road%2C%20Wadduwa!5e0!3m2!1sen!2slk!4v1741347387924!5m2!1sen!2slk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    margin-top: 20px;
+    background-color: #e9ecef; /* Placeholder background */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.map::after {
+    content: "Map Placeholder";
+    font-size: 18px;
+    color: #6c757d;
+}
