@@ -14,8 +14,8 @@ const MyNavbar = () => {
       {/* Links on the Right */}
       <div className="nav-links">
         <a href="/">Home</a>
-        <a href="#">About</a>
-        <a href="#">Services</a>
+        <a href="/service">Services</a>
+        <a href="/rent-car">Rent Car</a>
         <a href="/contact-page">Contact</a>
       </div>
       <div className="phone-number">

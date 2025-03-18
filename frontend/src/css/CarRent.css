@@ -1,0 +1,96 @@
+.category-tab {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+  }
+  
+  .btn-category {
+    width: 180px;
+    height: 50px;
+    background: linear-gradient(45deg, #007bff, #00c6ff);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .btn-category:hover {
+    background: linear-gradient(45deg, #0056b3, #0086c9);
+    transform: scale(1.05);
+  }
+  
+  .car-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .car-card {
+    width: 320px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin: 15px;
+    padding: 15px;
+    text-align: center;
+  }
+  
+  .car-image {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+  }
+  
+  .car-type {
+    color: green;
+    font-size: 14px;
+  }
+  
+  /* Tabs */
+  .tab-buttons {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 0;
+  }
+  
+  .tab-buttons button {
+    padding: 8px 12px;
+    font-size: 14px;
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    cursor: pointer;
+  }
+  
+  .tab-buttons .tab-active {
+    background-color: #007bff;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .tab-content {
+    padding: 10px;
+    text-align: left;
+    font-size: 14px;
+  }
+  
+  .select-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #002b5b;
+    color: white;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .select-btn:hover {
+    background-color: #004080;
+  }
+  
