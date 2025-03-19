@@ -166,14 +166,7 @@ const addVehicle = async () => {
             value={vehicle.pricePerDay}
             onChange={handleChange}
           />
-          <textarea
-            className="form-control mb-3"
-            placeholder="Description"
-            name="description"
-            value={vehicle.description}
-            onChange={handleChange}
-            rows="4"
-          ></textarea>
+          
         </div>
       </div>
       <div className="d-flex justify-content-between mt-4">

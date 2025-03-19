@@ -109,10 +109,8 @@ const addVehicle = async () => {
             onChange={handleChange}
           >
             <option value="">Select Vehicle Category</option>
-            <option value="rentcar">Rent A car</option>
-            <option value="airport">Airport Transport</option>
-            <option value="wedding">Wedding Rent</option>
-
+            <option value="Car">Ren</option>
+            <option value="Bike">Bike</option>
             
           </select>
           <input
@@ -166,14 +164,14 @@ const addVehicle = async () => {
             value={vehicle.pricePerDay}
             onChange={handleChange}
           />
-          <textarea
+          <input
+            type="text"
             className="form-control mb-3"
             placeholder="Description"
             name="description"
             value={vehicle.description}
             onChange={handleChange}
-            rows="4"
-          ></textarea>
+          />
         </div>
       </div>
       <div className="d-flex justify-content-between mt-4">

@@ -104,16 +104,16 @@ const addVehicle = async () => {
           {/* Dropdown for Vehicle Type */}
           <select
             className="form-control mb-3"
-            name="vehiclecategory"
-            value={vehicle.vehiclecategory}
+            name="vehicletype"
+            value={vehicle.vehicletype}
             onChange={handleChange}
           >
-            <option value="">Select Vehicle Category</option>
-            <option value="rentcar">Rent A car</option>
-            <option value="airport">Airport Transport</option>
-            <option value="wedding">Wedding Rent</option>
-
-            
+            <option value="">Select Vehicle Type</option>
+            <option value="Car">Car</option>
+            <option value="Bike">Bike</option>
+            <option value="Van">Van</option>
+            <option value="Bus">Bus</option>
+            <option value="Truck">Truck</option>
           </select>
           <input
             type="text"
@@ -166,14 +166,14 @@ const addVehicle = async () => {
             value={vehicle.pricePerDay}
             onChange={handleChange}
           />
-          <textarea
+          <input
+            type="text"
             className="form-control mb-3"
             placeholder="Description"
             name="description"
             value={vehicle.description}
             onChange={handleChange}
-            rows="4"
-          ></textarea>
+          />
         </div>
       </div>
       <div className="d-flex justify-content-between mt-4">

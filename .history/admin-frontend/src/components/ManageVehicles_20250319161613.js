@@ -5,7 +5,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 const ManageVehicles = () => {
   const [vehicle, setVehicle] = useState({
     vehicleID: "",
-    vehiclecategory: "",
+    vehicletype:""
     model: "",
     year: "",
     status: "",
@@ -100,21 +100,6 @@ const addVehicle = async () => {
             value={vehicle.model}
             onChange={handleChange}
           />
-          
-          {/* Dropdown for Vehicle Type */}
-          <select
-            className="form-control mb-3"
-            name="vehiclecategory"
-            value={vehicle.vehiclecategory}
-            onChange={handleChange}
-          >
-            <option value="">Select Vehicle Category</option>
-            <option value="rentcar">Rent A car</option>
-            <option value="airport">Airport Transport</option>
-            <option value="wedding">Wedding Rent</option>
-
-            
-          </select>
           <input
             type="text"
             className="form-control mb-3"
@@ -166,14 +151,14 @@ const addVehicle = async () => {
             value={vehicle.pricePerDay}
             onChange={handleChange}
           />
-          <textarea
+          <input
+            type="text"
             className="form-control mb-3"
             placeholder="Description"
             name="description"
             value={vehicle.description}
             onChange={handleChange}
-            rows="4"
-          ></textarea>
+          />
         </div>
       </div>
       <div className="d-flex justify-content-between mt-4">

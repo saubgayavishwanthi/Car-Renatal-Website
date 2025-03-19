@@ -10,11 +10,10 @@ function RentCar() {
     <div className="navbar">
         <Navbar/>
     </div>
-   
-    <div className='button-grid d-grid  d-md-flex gap-2 justify-content-md-center'>
-      <button className='btn btn-outline-success btn-lg'>Rent A Car</button>
-      <button className='btn btn-outline-success btn-lg'>Airport Transport</button>
-      <button className='btn btn-outline-success btn-lg'>Wedding Rent</button>
+    <div className='rentcar-container mt-10'>
+      <button className='btn btn-outline-success'>Rent A Car</button>
+      <button className='car-option'>Airport Transport</button>
+      <button className='car-option'>Wedding Rent</button>
     </div>
       
       
