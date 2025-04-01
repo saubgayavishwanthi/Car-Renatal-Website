@@ -1,0 +1,13 @@
+const express = require("express");
+const cors = require("cors");
+const bodyparser = require("body-parser");
+require("dotenv").config();
+
+const vehicleRoutes = require ("./routes/vehicleRoutes");
+const bodyParser = require("body-parser");
+
+const app = express();
+const PORT = process.env.PORT || 8081;
+
+app.use(cors());
+app.use(bodyParser)
